@@ -1,0 +1,57 @@
+{
+  "nodes": {
+    "agda": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1617020014,
+        "narHash": "sha256-eEI4knySWMB8LsI3WbBD50F97ElsfNHrmHAmB16Uatw=",
+        "owner": "agda",
+        "repo": "agda",
+        "rev": "7cfab236cc0bc2747b3c025f11446235bf8d8dcc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "agda",
+        "repo": "agda",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1614513358,
+        "narHash": "sha256-LakhOx3S1dRjnh0b5Dg3mbZyH0ToC9I8Y2wKSkBaTzU=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5466c5bbece17adaab2d82fae80b46e807611bf3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1611575689,
+        "narHash": "sha256-z2rNP3zdVnGxp9iV2Rbn0/LLKhk47DZQKxDkpYFLI7M=",
+        "path": "/nix/store/msggv0cva19qbyb2fllqhfzh1zv30bmp-source",
+        "rev": "891f607d5301d6730cb1f9dcf3618bcb1ab7f10e",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "agda": "agda",
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
